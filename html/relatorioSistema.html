@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/relatorioSistema.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+</head>
+<body>
+
+        <nav>
+            <div class="logoNav">
+                <img src="../img/logo.png" alt="Logo">
+                <span>ONDE EU PAREI?</span>
+            </div>
+
+            <div class="usuario">
+                <a href="../index.html">Cadastro</a>
+                <a href="../html/areaPagamento.html">Pagamento</a>
+                <a href="../html/funcionario.html">Funcionário</a>
+            </div>
+        </nav>
+
+        <div class="dashboard-container">
+                <header class="começo">
+                    <h1>Relatório Do Sistema</h1>
+                </header>
+        </div>        
+
+        <main class="tudo">
+            <div class="coluna">
+                <div class="card">
+                    <h2>Movimentações</h2>
+                    <div class="semaninhas">
+                        <div class="semana"><span class="dia">Segunda</span> <div class="por"><div class="sem" style="width: 65%;"></div><span class="valor">85</span></div></div>
+                        <div class="semana"><span class="dia">Terça</span> <div class="por"><div class="sem" style="width: 55%;"></div><span class="valor">75</span></div></div>
+                        <div class="semana"><span class="dia">Quarta</span> <div class="por"><div class="sem" style="width: 60%;"></div><span class="valor">80</span></div></div>
+                        <div class="semana"><span class="dia">Quinta</span> <div class="por"><div class="sem" style="width: 70%;"></div><span class="valor">90</span></div></div>
+                        <div class="semana"><span class="dia">Sexta</span> <div class="por"><div class="sem" style="width: 85%;"></div><span class="valor">110</span></div></div>
+                        <div class="semana"><span class="dia">Sábado</span> <div class="por"><div class="sem" style="width: 100%;"></div><span class="valor">130</span></div></div>
+                        <div class="semana"><span class="dia">Domingo</span> <div class="por"><div class="sem" style="width: 35%;"></div><span class="valor">50</span></div></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <table class="veiculos">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Veículos Mais Frequentes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>ABC1D23</td><td class="texto">25</td></tr>
+                            <tr><td>XYZ9A88</td><td class="texto">18</td></tr>
+                            <tr><td>DEF4G56</td><td class="texto">15</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="coluna">
+                <div class="asm">
+                    <div class="card ccards">
+                        <h3>Receita por Dia</h3>
+                        <ul class="lista">
+                            <li><span>01/05</span> <strong>R$ 320</strong></li>
+                            <li><span>02/05</span> <strong>R$ 450</strong></li>
+                            <li><span>03/05</span> <strong>R$ 390</strong></li>
+                            <li><span>04/05</span> <strong>R$ 510</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="card ccards">
+                        <ul class="lista textinho">
+                            <li><span>Veículos</span> <strong>100</strong></li>
+                            <li><span>Livres</span> <strong class="livre">22</strong></li>
+                            <li><span>Ocupados</span> <strong class="oculpado">78</strong></li>
+                            <hr class="divider">
+                            <li><span>Total</span> <strong>100</strong></li>
+                            <li><span>Receita</span> <strong>R$ 2.450</strong></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="botao">
+                    <button class="relatorio">Gerar Relatório</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>

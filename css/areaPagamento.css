@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#e9e9ec;
+}
+
+
+nav{
+    width:100%;
+    height:75px;
+    background:#1E293B;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 45px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.logoNav{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logoNav img{
+    width:55px;
+}
+
+.logoNav span{
+    color:white;
+    font-size:24px;
+    font-weight:700;
+}
+
+.usuario a{
+    color:#CBD5E1;
+    text-decoration:none;
+    padding:20px;
+}
+
+.usuario a:hover{
+    color:#4400ffbf;
+}
+
+.container{
+    width:100%;
+    height:calc(100vh - 75px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+}
+
+.card{
+    width:450px;
+    min-height:520px;
+    padding:50px;
+    display:flex;              
+    flex-direction:column;     
+    align-items:center;         
+    justify-content:center;    
+    text-align:center;
+    background:#e5ebf4;
+    border-radius:25px;
+    box-shadow:5px 10px 20px rgba(0,0,0,.2);
+}
+
+
+.form{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;  
+    gap:22px;
+}
+
+
+input, select{
+    width:80%;           
+    padding:14px;
+    border:2px solid #2340b8;
+    border-radius:20px;
+    text-align:center;
+    outline:none;
+}
+
+
+h1{
+    color:#0f2ea6;
+    font-size:34px;
+    margin-bottom:40px;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+}
+
+
+input, select{
+    width:100%;
+    padding:14px;
+    border:2px solid #2340b8;
+    border-radius:20px;
+    text-align:center;
+    outline:none;
+    font-size:14px;
+}
+
+.confimar{
+    margin-top:30px;
+}
+
+button{
+    padding:14px 45px;
+    border:none;
+    border-radius:25px;
+    background:linear-gradient(90deg,#0e01c4,#100057);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+a{
+    color: white;
+}

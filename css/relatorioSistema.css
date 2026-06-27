@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f4f6fb;
+}
+
+nav{
+    width:100%;
+    height:75px;
+    background:#1E293B;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 45px;
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+}
+
+.logoNav{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logoNav img{
+    width:52px;
+}
+
+.logoNav span{
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+}
+
+.usuario a{
+    color:#cbd5e1;
+    text-decoration:none;
+    padding:12px 18px;
+    font-size:15px;
+}
+
+.usuario a:hover{
+    color:#6366f1;
+}
+
+.dashboard-container{
+    width:100%;
+    padding:30px;
+}
+
+.começo{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.começo h1{
+    font-size:32px;
+    color:#0f172a;
+}
+
+.tudo{
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.coluna{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:18px;
+    padding:22px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.06);
+}
+
+.card h2,.card h3{
+    font-size:18px;
+    margin-bottom:15px;
+    color:#0f172a;
+}
+
+.semaninhas{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.semana{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.dia{
+    width:80px;
+    font-size:13px;
+    color:#475569;
+}
+
+.por{
+    flex:1;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.sem{
+    height:8px;
+    background:linear-gradient(90deg,#4f46e5,#6366f1);
+    border-radius:10px;
+}
+
+.valor{
+    font-size:12px;
+    color:#334155;
+}
+
+.veiculos{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.veiculos th{
+    text-align:left;
+    padding-bottom:10px;
+    color:#0f172a;
+    font-size:15px;
+}
+
+.veiculos td{
+    padding:10px 0;
+    border-bottom:1px solid #eef2f7;
+    color:#334155;
+}
+
+.texto{
+    text-align:right;
+    font-weight:600;
+    color:#0f172a;
+}
+
+.lista{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.lista li{
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+    color:#475569;
+}
+
+.lista strong{
+    color:#0f172a;
+}
+
+.livre{
+    color:#16a34a;
+}
+
+.oculpado{
+    color:#dc2626;
+}
+
+.divider{
+    border:none;
+    height:1px;
+    background:#e5e7eb;
+    margin:8px 0;
+}
+
+.asm{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.botao{
+    display:flex;
+    justify-content:center;
+}
+
+.relatorio{
+    padding:14px 38px;
+    border:none;
+    border-radius:12px;
+    background:#1f2f5e;
+    color:white;
+    font-size:14px;
+}
+.relatorio:hover{
+    background:#2c3e7a;
+}
